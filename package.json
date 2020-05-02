@@ -1,0 +1,19 @@
+{
+  "name": "ifood-backend-challenge",
+  "version": "1.0.0",
+  "description": "A micro-service to return Spotify playlist according to the current temperature (celsius) of city",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ifood",
+    "backend",
+    "challenge",
+    "spotify",
+    "temperature",
+    "city"
+  ],
+  "author": "Luis Eduardo",
+  "license": "MIT"
+}
