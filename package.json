@@ -1,19 +1,29 @@
 {
-  "name": "ifood-backend-challenge",
-  "version": "1.0.0",
-  "description": "A micro-service to return Spotify playlist according to the current temperature (celsius) of city",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ifood",
-    "backend",
-    "challenge",
-    "spotify",
-    "temperature",
-    "city"
-  ],
-  "author": "Luis Eduardo",
-  "license": "MIT"
+    "name": "ifood-backend-challenge",
+    "version": "1.0.0",
+    "description": "A micro-service to return Spotify playlist according to the current temperature (celsius) of city",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ifood",
+        "backend",
+        "challenge",
+        "spotify",
+        "temperature",
+        "city"
+    ],
+    "author": "Luis Eduardo",
+    "license": "MIT",
+    "dependencies": {
+        "@hapi/hapi": "^19.1.1",
+        "@hapi/joi": "^17.1.1",
+        "axios": "^0.19.2",
+        "dotenv": "^8.2.0"
+    },
+    "devDependencies": {
+        "mocha": "^7.1.2",
+        "nodemon": "^2.0.3"
+    }
 }

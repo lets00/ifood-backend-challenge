@@ -5,6 +5,21 @@ This project implements the [ifood backend challenge](https://github.com/ifood/v
 # Technologies
 * nodejs
 * hapijs (REST API)
+* joi (Validator)
+* axios (HTTP requests using Promises)
+* dotenv (Charge environment variable)
+
+# How to run
+
+1- Install dependencies via npm cli:
+```
+$ npm i
+```
+
+2- Run server
+```
+$ node index.js
+```
 
 # License
 
