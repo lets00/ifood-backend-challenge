@@ -9,7 +9,8 @@ const playlist = [{
             query: Joi.object({
                 city: Joi.string(),
                 lat: Joi.number(),
-                lon: Joi.number()
+                lon: Joi.number(),
+                access_token: Joi.string().required()
             }).xor('city', 'lat').xor('city', 'lon').and('lat', 'lon'),
             failAction: (req, res, error) => {
                 throw error;
