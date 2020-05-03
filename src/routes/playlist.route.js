@@ -5,6 +5,9 @@ const playlist = [{
     path: '/playlist',
     method: 'GET',
     options: {
+        tags: ['api'],
+        description: 'Get a playlist according to temperature',
+        notes: 'The access token can be get by /login route',
         validate: {
             query: Joi.object({
                 city: Joi.string(),

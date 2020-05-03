@@ -19,6 +19,11 @@ const spotify = [{
     {
         path: '/login',
         method: 'GET',
+        options: {
+            tags: ['api'],
+            description: 'Get access_token to access spotify API',
+            notes: 'the access_token must be used on /playlist route',
+        },
         handler: spotifyHandler.login
     }
 ]

@@ -8,6 +8,7 @@ This project implements the [ifood backend challenge](https://github.com/ifood/v
 * joi (Validator)
 * axios (HTTP requests using Promises)
 * dotenv (Charge environment variable)
+* swagger (API Documentation)
 
 # How to run
 
@@ -20,6 +21,9 @@ $ npm i
 ```
 $ node index.js
 ```
+
+To verify how to use, please consult the [API documentation](http://localhost:3000/documentation) gennerated by Swagger.
+
 
 # License
 
